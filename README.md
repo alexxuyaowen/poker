@@ -21,6 +21,7 @@
 - Display a list of hands competing against a given hand, sorted by winning rate from highest to lowest. For example, the best hand to play against a pair of Aces is not a pair of Kings or Ace King suited, but 7-8 suited (in fact, Ace-King has a far below-average performance against AA).
 
 ![c](https://github.com/alexxuyaowen/poker/blob/main/demo/c.png)
+![c](https://github.com/alexxuyaowen/poker/blob/main/demo/c2.png)
 
 ## Dual
 - Given two hands, compute and display the chance of one hand beating the other if all in pre-flop.
