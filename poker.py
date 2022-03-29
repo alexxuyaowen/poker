@@ -255,7 +255,7 @@ def toPercent(p, precision=3):
     return f.format(p)
     # return str(round(p*100, precision)) + "%"
 
-#Generate all 169 different starting hands
+#Generate all 169 different starting hands in Spade and Club
 def allHands():
     list = []
 
@@ -400,13 +400,14 @@ def handRanking(board, num_players=6, num_tests=33333):
     return
 
 def competeAgainst(num_rounds=33333):
-    hand_inp = input("Your hand: ")
+    print("*Please use cards of Heart or Diamond.")
+    hand_inp = input("The hand: ")
     hand_inp = hand_inp.upper().split()
     hand = []
 
     for s in hand_inp:
-        if s[0] in ['S', 'C']:
-            print("Incorrect Input: Please use cards of Heart or Diamond.\n")
+        if s[0] not in ['H', 'D']:
+            print("Invalid Hand: Please use cards of Heart or Diamond.\n")
             return competeAgainst()
 
         hand.append(toCard(s))
@@ -626,7 +627,7 @@ def analysis(num_tests=100000):
     print()
 
 def statistics(num_tests=33333):
-    num_players = int(input("Number of players: "))
+    num_players = int(input("number of players: "))
     board_inp = input("The board: ")
     board_inp = board_inp.upper().split()
     board = []
@@ -644,7 +645,7 @@ def statistics(num_tests=33333):
     phase = len(board)
 
     if phase < 5:
-        auto_fill = input("Auto-fill the board? ").upper()
+        auto_fill = input("Auto-fill the board [Y/N]? ").upper()
 
     for _ in range(num_tests):
         players.clear()
@@ -709,9 +710,11 @@ def menu():
     print("Select a feature below:")
     print("A: Advice")
     print("An: Analysis")
+    print("C: Compete Against")
     print("D: Dual")
     print("R: Ranking")
     print("S: Simulator")
+    print("SS: Statistics")
     print("?: Help")
     selected = input("Your Choice: ").upper()
     print("\n")
@@ -722,6 +725,9 @@ def menu():
     elif selected == "AN":
         print("#Analysis\n" + '-'*33)
         analysis()
+    elif selected == "C":
+        print("#Compete Against\n" + '-'*33)
+        competeAgainst()
     elif selected == "D":
         print("#Dual\n" + '-'*33)
         dual()
@@ -732,7 +738,6 @@ def menu():
             ranking()
         else:
             ranking(int(n))
-        input("\nPress enter to continue...\n")
     elif selected == 'S':
         print("#Simulator\n" + '-'*33)
         n = input("number of players: ")
@@ -740,16 +745,18 @@ def menu():
             deal()
         else:
             deal(int(n))
-        input("\nPress enter to continue...\n")
+    elif selected == 'SS':
+        print("#Statistics\n" + '-'*33)
+        statistics()
     elif selected == '?':
         print("#Help\n" + '-'*33)
         print("S: Spade; D: Diamond; C: Club; H: Heart.")
         print("e.g. S10: Spade-10; DA:Diamond-A; H2:Heart-2...")
         print("(case insensitive)")
         print('-'*33)
-        input("\nPress enter to continue...\n")
     else:
         exit()
+    input("\nPress enter to continue...\n")
     menu()
 
 print()
