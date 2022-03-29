@@ -1,26 +1,26 @@
 # Poker
 
 ### Menu
-![menu](https://github.com/alexxuyaowen/poker/blob/main/Demo/menu.png)
+![menu](https://github.com/alexxuyaowen/poker/blob/main/demo/menu.png)
 
 ### Advice
-![advice](https://github.com/alexxuyaowen/poker/blob/main/Demo/advice.png)
+![advice](https://github.com/alexxuyaowen/poker/blob/main/demo/advice.png)
 
 ### Analysis
-![analysis](https://github.com/alexxuyaowen/poker/blob/main/Demo/analysis.png)
+![analysis](https://github.com/alexxuyaowen/poker/blob/main/demo/analysis.png)
 
 ### Compete Against
-![c](https://github.com/alexxuyaowen/poker/blob/main/Demo/c.png)
+![c](https://github.com/alexxuyaowen/poker/blob/main/demo/c.png)
 
 ### Ranking
-![ranking](https://github.com/alexxuyaowen/poker/blob/main/Demo/ranking.png)
+![ranking](https://github.com/alexxuyaowen/poker/blob/main/demo/ranking.png)
 
 ### Simulator
-![simulator](https://github.com/alexxuyaowen/poker/blob/main/Demo/simulator.png)
+![simulator](https://github.com/alexxuyaowen/poker/blob/main/demo/simulator.png)
 
 ### Statistics
-![stat](https://github.com/alexxuyaowen/poker/blob/main/Demo/stat.png)
+![stat](https://github.com/alexxuyaowen/poker/blob/main/demo/stat.png)
 
 ### Help
-![help](https://github.com/alexxuyaowen/poker/blob/main/Demo/help.png)
+![help](https://github.com/alexxuyaowen/poker/blob/main/demo/help.png)
 
