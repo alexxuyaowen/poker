@@ -1,8 +1,9 @@
 # Poker
 
 ## Menu
-![menu](https://github.com/alexxuyaowen/poker/blob/main/demo/menu.png)
 - Select a feature and press enter, case insensitive.
+
+![menu](https://github.com/alexxuyaowen/poker/blob/main/demo/menu.png)
 
 ## Advice
 - The main feature of the app, allowing the user to compute their winning chance based on the known conditions.
