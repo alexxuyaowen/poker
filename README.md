@@ -12,11 +12,6 @@
 ![advice0](https://github.com/alexxuyaowen/poker/blob/main/demo/advice0.png)
 ![advice](https://github.com/alexxuyaowen/poker/blob/main/demo/advice.png)
 
-## Analysis
-- Display a list of probabilities regarding how a hand would win during showdown.
-
-![analysis](https://github.com/alexxuyaowen/poker/blob/main/demo/analysis.png)
-
 ## Compete Against
 - Display a list of hands competing against a given hand, sorted by winning rate from highest to lowest. For example, the best hand to play against a pair of Aces is not a pair of Kings or Ace-King, but 7-8 suited (in fact, Ace-King has a far below-average performance against AA).
 
@@ -36,15 +31,20 @@
 
 ![ranking](https://github.com/alexxuyaowen/poker/blob/main/demo/ranking.png)
 
+## Prediction
+- Given the number of players and the known board cards, predict how the game would end.
+
+![pred](https://github.com/alexxuyaowen/poker/blob/main/demo/pred.png)
+
+## Analysis
+- Display a list of probabilities regarding how a hand would win during showdown.
+
+![analysis](https://github.com/alexxuyaowen/poker/blob/main/demo/analysis.png)
+
 ## Simulator
 - Simulate a game given the number of players.
 
 ![simulator](https://github.com/alexxuyaowen/poker/blob/main/demo/simulator.png)
-
-## Statistics
-- Given the number of players and the known board cards, display of a list of probablities regarding how the game would end during showdown.
-
-![stat](https://github.com/alexxuyaowen/poker/blob/main/demo/stat.png)
 
 ## Help
 - A concise explanation of how to use the program.
