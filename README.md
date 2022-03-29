@@ -25,11 +25,11 @@
 
 ## Dual
 - Given two hands, compute and display the chance of one hand beating the other if all in pre-flop.
-- An interesting phenomenon: 10-J_suited beats a pair of 2s, A-K_suited beats 10-J_suited, a pair of 2s beats A-K_suited.
+- An interesting phenomenon: 10-J_suited beats a pair of 6s, A-K_suited beats 10-J_suited (badly), a pair of 6s beats A-K_suited.
 
-![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual.png)
+![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual0.png)
+![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual1.png)
 ![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual2.png)
-![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual3.png)
 
 ## Ranking
 - Given a number of players, display a ranking list of hands, sorted by winning rate from highest to lowest. For example, the top 10 best hands to play in a table consists of 6 players are AA, KK, QQ, JJ, AK_suited, AQ_suited, 10-10, AJ_suited, KQ_suited, AK_off-suit.
