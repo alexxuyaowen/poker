@@ -29,7 +29,7 @@
 
 ![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual0.png)
 ![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual1.png)
-![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual2.png)
+![dual](https://github.com/alexxuyaowen/poker/blob/main/demo/dual10.png)
 
 ## Ranking
 - Given a number of players, display a ranking list of hands, sorted by winning rate from highest to lowest. For example, the top 10 best hands to play in a table consists of 6 players are AA, KK, QQ, JJ, AK_suited, AQ_suited, 10-10, AJ_suited, KQ_suited, AK_off-suit.
