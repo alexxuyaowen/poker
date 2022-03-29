@@ -568,7 +568,6 @@ def advice():
             # print("Maximum bet:", toPercent(1/(1/winrate-1), 0), "of the pot.")
 
     print()
-    advice()
 
 def dual():
     hand1_inp = input("hand1: ")
